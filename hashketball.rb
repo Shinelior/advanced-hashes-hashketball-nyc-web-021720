@@ -270,8 +270,8 @@ def  winning_team
       i += 1
   end
   charlotte_total = 0 
-  x = 0 
-  while x < baskt_hash[:away][:players].length
+  
+  
   charlotte_total += baskt_hash[:away][:players][x][:points]
   x += 1
   
