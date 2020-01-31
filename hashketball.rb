@@ -267,6 +267,7 @@ def  winning_team
   i = 0 
   while i < baskt_hash[:home][:players].length   
   nets_total += baskt_hash[:home][:players][i][:points]
+  
       i += 1
   end
   charlotte_total = 0 
