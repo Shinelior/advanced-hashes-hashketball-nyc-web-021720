@@ -261,7 +261,7 @@ end
 def  winning_team
  
   nets_total = 0
-  
+  charlotte_total = 0
   baskt_hash = game_hash
   new_arry = []
   new_arry = team_names
