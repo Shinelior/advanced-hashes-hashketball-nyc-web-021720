@@ -267,15 +267,9 @@ def  winning_team
   i = 0 
   while i < baskt_hash[:home][:players].length   
   nets_total += baskt_hash[:home][:players][i][:points]
-  charlotte_total += baskt_hash[:away][:players][x][:points]
+  charlotte_total += baskt_hash[:away][:players][i][:points]
       i += 1
   end
-  charlotte_total = 0 
-  
-  
-  charlotte_total += baskt_hash[:away][:players][x][:points]
-  x += 1
-  
  end
  
  if charlotte_total > nets_total
