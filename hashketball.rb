@@ -270,7 +270,7 @@ def  winning_team
   charlotte_total += baskt_hash[:away][:players][i][:points]
       i += 1
   end
- end
+
  
  if charlotte_total > nets_total
    return new_arry[0]
